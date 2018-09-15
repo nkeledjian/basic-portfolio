@@ -1,0 +1,11 @@
+/*id = # (style a single element)*/
+/*class = . (style */
+header {
+    margin: 0px;
+    padding: 20x;
+    border-style: solid;
+    border-color: rgb(56, 116, 56);
+}
+#bio {
+    background-color: rgba(224, 255, 255, 0.418);
+}

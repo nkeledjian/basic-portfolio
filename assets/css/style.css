@@ -1,11 +1,26 @@
 /*id = # (style a single element)*/
 /*class = . (style */
-header {
-    margin: 0px;
-    padding: 20x;
-    border-style: solid;
-    border-color: rgb(56, 116, 56);
+.home {
+    border: 1px solid grey;
+    padding: 25px;
 }
-#bio {
-    background-color: rgba(224, 255, 255, 0.418);
+.name {
+    padding: 20px;
+    background: #2EAEAE;
 }
+.bio {
+    background-color: rgba(90, 147, 221, 0.418);
+    border: 1px solid grey;
+    padding-top: 5px;}
+
+.nav {
+    float: right;}
+
+body {
+    font-family: sans-serif;
+    background-color: white;}
+
+a .nav {
+    padding: 5px;
+}
+  

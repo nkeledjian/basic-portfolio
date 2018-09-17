@@ -2,25 +2,37 @@
 /*class = . (style */
 .home {
     border: 1px solid grey;
-    padding: 25px;
+    padding: 10px;
 }
 .name {
-    padding: 20px;
     background: #2EAEAE;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    
 }
 .bio {
-    background-color: rgba(90, 147, 221, 0.418);
+    background-color: rgb(212, 222, 236);
     border: 1px solid grey;
-    padding-top: 5px;}
+    display: block;
+    }
 
 .nav {
     float: right;}
 
 body {
     font-family: sans-serif;
-    background-color: white;}
-
-a .nav {
-    padding: 5px;
-}
+    background-color: rgba(255, 255, 255, 0.788);}
   
+.img {
+    width: 15%;
+    height: 15%;
+    border: 1px solid grey;
+}
+
+.leftFloat {
+    float: left;
+}
+
+.rightFloat {
+    float: right;
+}

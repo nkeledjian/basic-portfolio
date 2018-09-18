@@ -4,7 +4,9 @@ header {
     border-left-width: 400px;
     border-right-width: 500px;
     padding-top: 20px;
-    padding-bottom: 15px;    
+    padding-bottom: 20px;
+    padding-left: 400px;
+    padding-right: 400px;    
 }
 .name {
     background: #4aaaa5;
@@ -15,11 +17,17 @@ header {
 .bio {
     background-color: rgb(212, 222, 236);
     border: 0px solid grey;
-    display: inline-block;
+    position: relative;
     width: 960px;
     margin-top: 20px;
     margin-left: 400px;
     margin-right: 400px;
+}
+
+.info {
+    float: right;
+    position: absolute;
+    padding-left: 158px;
 }
 
 .nav {

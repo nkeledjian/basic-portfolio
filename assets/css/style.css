@@ -1,38 +1,48 @@
 /*id = # (style a single element)*/
 /*class = . (style */
-.home {
-    border: 1px solid grey;
-    padding: 10px;
+header {
+    border-left-width: 400px;
+    border-right-width: 500px;
+    padding-top: 20px;
+    padding-bottom: 15px;    
 }
 .name {
-    background: #2EAEAE;
+    background: #4aaaa5;
     padding-top: 10px;
     padding-bottom: 11px;
     
 }
 .bio {
     background-color: rgb(212, 222, 236);
-    border: 1px solid grey;
-    display: block;
-    }
+    border: 0px solid grey;
+    display: inline-block;
+    width: 960px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
 
 .nav {
-    float: right;}
+    float: right;
+}
 
 body {
     font-family: sans-serif;
-    background-color: rgba(255, 255, 255, 0.788);}
+    background-color: rgba(255, 255, 255, 0.788);
+}
   
 .img {
     width: 15%;
     height: 15%;
-    border: 1px solid grey;
+    border: 0px solid grey;
 }
 
-.leftFloat {
+.headshot {
     float: left;
+    display: inline-block;
 }
 
-.rightFloat {
+.description {
     float: right;
+    position: absolute;
 }

@@ -1,27 +1,45 @@
-/*id = # (style a single element)*/
-/*class = . (style */
+/*id = # (HIGH priority - style a single element, renders once)*/
+/*class = . (LOW priority - style as many times as you like*/
 header {
-    border-left-width: 400px;
-    border-right-width: 500px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 400px;
-    padding-right: 400px;    
+    /*border-left-width: 400px;*/
+    /*border-right-width: 500px;*/
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    border-bottom: 1px solid grey;
+    z-index: 1;    
 }
+
 .name {
     background: #4aaaa5;
-    padding-top: 10px;
-    padding-bottom: 11px;
-    
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: 400;
+    position: absolute;
 }
+
+.nav {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    padding-left: 797px;
+    padding-top: 17px;
+    text-decoration: none;
+}
+
 .bio {
     background-color: rgb(212, 222, 236);
-    border: 0px solid grey;
+    border: 1px solid grey;
     position: relative;
     width: 960px;
     margin-top: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 100px;
 }
 
 .info {
@@ -30,10 +48,19 @@ header {
     padding-left: 158px;
 }
 
-.nav {
-    float: right;
+a {
+    text-decoration: none;
+    color: grey;
 }
 
+h2 {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #4aaaa5;
+}
 body {
     font-family: sans-serif;
     background-color: rgba(255, 255, 255, 0.788);

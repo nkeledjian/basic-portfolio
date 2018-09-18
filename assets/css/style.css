@@ -8,7 +8,14 @@ header {
     padding-left: 500px;
     padding-right: 500px;
     border-bottom: 1px solid grey;
-    z-index: 1;    
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 6px -1px rgba(0,0,0,0.94);
+    -moz-box-shadow: 0px 2px 6px -1px rgba(0,0,0,0.94);
+    box-shadow: 0px 2px 6px -1px rgba(0,0,0,0.94);    
+}
+
+.background {
+    background-image: url("basic-portfolio/assets/images/whiteMarble.jpg")
 }
 
 .name {
@@ -18,21 +25,20 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     position: absolute;
 }
 
 .nav {
     float: right;
-    display: inline-block;
     position: absolute;
-    padding-left: 797px;
+    padding-left: 815px;
     padding-top: 17px;
     text-decoration: none;
 }
 
 .bio {
-    background-color: rgb(212, 222, 236);
+    background-color: whitesmoke;
     border: 1px solid grey;
     position: relative;
     width: 960px;
@@ -40,6 +46,8 @@ header {
     margin-left: 500px;
     margin-right: 500px;
     padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .info {
@@ -54,7 +62,7 @@ a {
 }
 
 h2 {
-    font-weight: bold;
+    font-weight: 600;
     padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -74,7 +82,6 @@ body {
 
 .headshot {
     float: left;
-    display: inline-block;
 }
 
 .description {

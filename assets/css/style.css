@@ -13,6 +13,9 @@ header {
 #spacer {
     padding: 10px 0px 10px 0px;
 }
+#spacer2 {
+    padding: 20px 0px 20px 0px;
+}
 #background {
     background-image: url("../images/whiteMarble.jpg")
 }
@@ -59,9 +62,13 @@ header {
 
 .info2 {
     position: relative;
-
 }
 
+footer {
+    border: 1px solid #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 a {
     text-decoration: none;
     color: grey;

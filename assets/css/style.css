@@ -19,7 +19,9 @@ header {
 #background {
     background-image: url("../images/whiteMarble.jpg")
 }
-
+#backgroundColor {
+    background-color: rgb(67, 77, 77);
+}
 .name {
     background: #4aaaa5;
     padding-top: 17px;
@@ -58,10 +60,12 @@ header {
     position: absolute;
     padding-left: 5px;
     margin-left: 150px;
+    line-height: 20px;
 }
 
 .info2 {
     position: relative;
+    line-height: 20px;
 }
 
 footer {

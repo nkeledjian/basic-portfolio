@@ -10,10 +10,10 @@ header {
     border-bottom: 1px solid grey;
     z-index: 1;    
 }
-#spacer {
+#topspacer {
     padding: 10px 0px 10px 0px;
 }
-#spacer2 {
+#btmspacer {
     padding: 20px 0px 20px 0px;
 }
 #background {

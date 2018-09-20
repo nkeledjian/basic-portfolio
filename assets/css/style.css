@@ -23,6 +23,9 @@ header {
     background-color: rgb(67, 77, 77);
     color: whitesmoke;
 }
+#footertxt {
+    text-align: center;
+}
 .name {
     background: #4aaaa5;
     padding-top: 17px;

@@ -1,8 +1,6 @@
 /*id = # (HIGH priority - style a single element, renders once)*/
 /*class = . (LOW priority - style as many times as you like*/
 header {
-    /*border-left-width: 400px;*/
-    /*border-right-width: 500px;*/
     padding-top: 0px;
     padding-bottom: 50px;
     padding-left: 500px;
@@ -20,7 +18,7 @@ header {
     background-image: url("../images/whiteMarble.jpg")
 }
 #backgroundColor {
-    background-color: rgb(67, 77, 77);
+    background-color: rgb(95, 105, 105);
     color: whitesmoke;
 }
 #footertxt {
@@ -73,6 +71,7 @@ header {
 }
 
 footer {
+    border-top: 7px solid #4aaaa5;
     padding-top: 20px;
     padding-bottom: 20px;
 }

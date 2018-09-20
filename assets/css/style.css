@@ -21,6 +21,7 @@ header {
 }
 #backgroundColor {
     background-color: rgb(67, 77, 77);
+    color: whitesmoke;
 }
 .name {
     background: #4aaaa5;

@@ -19,29 +19,33 @@
     </header>
 <main>
 <div id="background"> <!--Background image-->
-  <div id="topspacer"></div>
+  <div id="topspacer"></div> <!--Spacer between page content container and header-->
   <div class="bio"> <!--Container for page content-->
     <h2>Contact</h2>
       <hr>
       <br>
-    <section class="info">
+    <section>
     <h4>Name</h4>  
-      <p>*Text Area*</p>
+    <input type="text" name="name"
+    value="" size="30" maxlength="50">
     </section> 
 
-    <section class="info2">
+    <section>
     <h4>Email</h4>  
-      <p>*Text Area*</p>
+      <input type="text" name="email_address"
+      value="" size="30" maxlength="50">
     </section>
 
     <section>
     <h4>Message</h4>  
-        <p>*Text Field*</p>
+      <textarea name="comments" rows="5" cols="50" wrap="soft">
+      </textarea>
     </section>
     <button>Submit</button>
   </div>
-  <div id="btmspacer"></div>
+  <div id="btmspacer"></div> <!--Spacer between page content container and footer-->
   <footer id="backgroundColor">
+    <p>&copy; 2018 Nareg Keledjian</p>
   </footer>
 </div>
 </main>

@@ -1,5 +1,8 @@
 /*id = # (HIGH priority - style a single element, renders once)*/
 /*class = . (LOW priority - style as many times as you like*/
+body {
+    background-size: contain;
+}
 header {
     padding-top: 0px;
     padding-bottom: 50px;
@@ -8,26 +11,32 @@ header {
     border-bottom: 1px solid grey;
     z-index: 1;    
 }
+
 #topspacer {
     padding: 10px 0px 10px 0px;
 }
+
 #btmspacer {
     padding: 20px 0px 20px 0px;
 }
+
 #background {
     background-image: url("../images/whiteMarble.jpg")
 }
+
 #backgroundColor {
     background-color: rgb(95, 105, 105);
     color: whitesmoke;
 }
+
 #footertxt {
     text-align: center;
 }
+
 .name {
     background: #4aaaa5;
     padding-top: 17px;
-    padding-bottom: 17px;
+    padding-bottom: 18px;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
@@ -50,7 +59,7 @@ header {
     width: 960px;
     margin-top: 0px;
     margin-left: 400px;
-    margin-right: 500px;
+    margin-right: 400px;
     padding-top: 10px;
     padding-bottom: 100px;
     padding-left: 10px;
@@ -62,12 +71,14 @@ header {
     position: absolute;
     padding-left: 5px;
     margin-left: 150px;
-    line-height: 20px;
+    line-height: 1.25em;
 }
 
 .info2 {
+    
     position: relative;
-    line-height: 20px;
+    line-height: 1.25em;
+    display: inline-block;
 }
 
 footer {
@@ -89,6 +100,14 @@ h2 {
     color: #4aaaa5;
 }
 
+h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    
+}
+
 h4 {
     font-weight: 600;
     color:#4aaaa5;
@@ -101,7 +120,7 @@ body {
 .img {
     width: 15%;
     height: 15%;
-    border: 0px solid grey;
+    padding-bottom: 10px;
 }
 
 .headshot {
@@ -112,3 +131,22 @@ body {
     float: right;
     position: absolute;
 }
+
+.txtadjust {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

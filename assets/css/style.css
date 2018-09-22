@@ -1,23 +1,25 @@
 /*id = # (HIGH priority - style a single element, renders once)*/
 /*class = . (LOW priority - style as many times as you like*/
-body {
-    background-size: contain;
-}
+
 header {
     padding-top: 0px;
     padding-bottom: 50px;
-    padding-left: 400px;
+    padding-left: 500px;
     padding-right: 500px;
     border-bottom: 1px solid grey;
-    z-index: 1;    
+    z-index: 1;
 }
 
 #topspacer {
     padding: 10px 0px 10px 0px;
 }
 
+#spacer {
+    padding-bottom: 40px;
+}
+
 #btmspacer {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 470px 0px;
 }
 
 #background {
@@ -58,10 +60,10 @@ header {
     position: relative;
     width: 960px;
     margin-top: 0px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -81,6 +83,11 @@ header {
     display: inline-block;
 }
 
+.projectImg {
+    width: 250px;
+    height: 250px;
+    padding: 10px 0px 0px 10px;
+}
 footer {
     border-top: 7px solid #4aaaa5;
     padding-top: 20px;
@@ -138,9 +145,6 @@ body {
     padding-left: 10px;
     padding-right: 5px;
 }
-
-
-
 
 
 

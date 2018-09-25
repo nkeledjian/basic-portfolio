@@ -10,6 +10,11 @@ header {
     z-index: 1;
 }
 
+body {
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
 #topspacer {
     padding: 10px 0px 10px 0px;
 }
@@ -119,10 +124,6 @@ h4 {
     font-weight: 600;
     color:#4aaaa5;
 }
-body {
-    font-family: sans-serif;
-    background-color: rgba(255, 255, 255, 0.788);
-}
   
 .img {
     width: 15%;
@@ -146,7 +147,21 @@ body {
     padding-right: 5px;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (min-width: 768px) {
+    main, body, .nav, .bio, header
+     {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main, body, .nav, .bio, header
+    {
+        width: 100%;
+    }
+}
 
 
 
